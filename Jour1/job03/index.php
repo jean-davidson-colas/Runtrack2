@@ -3,7 +3,7 @@ $prenom = "Marc";
 $age = "40";
 $taille= "1.75";
 $val= null; 
-$myBool = false;
+$myBool = true;
 $array = ["premiere val", "foo"];
 
 
@@ -18,6 +18,7 @@ $array = ["premiere val", "foo"];
 		<th>valeur</th>
 		</tr>
 	</thead>
+	<tbody>
 	<tr>
 		<td>String</td>
 		<td>$prenom</td>
@@ -48,4 +49,6 @@ $array = ["premiere val", "foo"];
 	<td>$array</td>
 	<td><?php  echo $array[0]?></td>
 	</tr>
+	</tbody>
+	
 </table>
