@@ -9,6 +9,11 @@ $voyelles = 0;
 $consonnes = 0;
 
 $i = 0;
+$i2 = 0;
+$i3 = 0;
+
+
+
 
 
 while ($i < strlen($str)) 
@@ -16,32 +21,22 @@ while ($i < strlen($str))
 	$i2 = 0;
 	$i3 = 0;
 	
-	if ($str[$i] == $dic["voyelles"])) 
-	{
-		$voyelles++;
-	}
-
-	else if ($str[$i] == $dic["consonnes"])) 
-	{
-		$consonnes++;
-	}
-
 	
-			 
-			
-			$i=$i +1;
+	
+		if ($str[$i] == $dic["voyelles"][$i2]) 
+		{
+			echo " ta";
+		}
+	
+	 
+		if ($str[$i] == $dic["consonnes"][$i3]) 
+		{
+			echo " ton";
 		
+		}
+
 
 }
 
 ?>
 
-<table>
-	<thead>
-		<th>voyelles</th><th>consonnes</th>
-	</thead>
-	<tr>
-		<td><?php echo $voyelles;?></td>
-		<td><?php  echo $consonnes;?></td>
-	</tr>
-</table>
