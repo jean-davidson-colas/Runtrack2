@@ -100,10 +100,6 @@ INSERT INTO `salles` (`ID`, `nom`, `id_etage`, `capacite`) VALUES
 SELECT *  FROM etudiants;
 
 
-SELECT `nom`,`capacite`? FROM `salles`;
+SELECT `nom`,`capacite` FROM `salles`;
 
-<<<<<<< HEAD
-SELECT nom,prenom,naissance FROM etudiants WHERE sexe = 'Femme';
-=======
-SELECT n,prenom,naissance FROM etudiants WHERE sexe = 'Femme';
->>>>>>> 9bf9f6b230be68a5bbc66ecb357daab0cf78a28c
+SELECT COUNT(*) FROM etudiants;

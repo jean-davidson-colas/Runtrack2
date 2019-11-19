@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 if($_GET['Style'] == 'Style1')
 {
    	?>
@@ -94,3 +95,58 @@ if($_GET['Style'] == 'Style1')
    <link rel="stylesheet" href="style3.css">
 <?php
 } 
+=======
+	
+	
+function leetspeak($str)
+
+{
+	$i = 0;
+
+	while ($i < strlen($str)) 
+	{
+		
+
+		if ($str[$i] == "A") 
+		{
+			 $str[$i] = "4";
+		}
+		if ($str[$i] == "B") 
+		{
+			 $str[$i] = "8";
+		}
+		if ($str[$i] == "E") 
+		{
+			 $str[$i] = "3";
+		}
+		if ($str[$i] == "G") 
+		{
+			 $str[$i] = "6";
+		}
+		if ($str[$i] == "L") 
+		{
+			 $str[$i] = "1";
+		}
+		if ($str[$i] == "S") 
+		{
+			 $str[$i] = "5";
+		}
+		if ($str[$i] == "T") 
+		{
+			 $str[$i] = "7";
+		}
+
+		$i++;
+	}
+
+	return $str;
+}
+
+
+
+$texte = leetspeak("BONJOUR JE M'APPELLE DEVON");
+echo $texte;
+
+
+?>
+>>>>>>> 9bf9f6b230be68a5bbc66ecb357daab0cf78a28c
